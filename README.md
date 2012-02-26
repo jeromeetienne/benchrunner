@@ -29,10 +29,10 @@ Here is an suite
 ```javascript
 benchsuite('current time in ms', function(){
     bench('Date.now()', function() {
-	Date.now()
+        Date.now()
     });
     bench('new Date().getTime()', function() {
-	new Date().getTime();
+        new Date().getTime();
     });
 });
 ```
