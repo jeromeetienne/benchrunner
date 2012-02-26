@@ -11,8 +11,28 @@ by
 
 
 
+It is add ```#runall``` to the runner url. The benchmarks will start as soon
+as the page is loaded.
+
+You add your own suite
+at the end of the
+[index.html](https://github.com/jeromeetienne/benchrunner/blob/master/index.html).
+So around
+[here](https://github.com/jeromeetienne/benchrunner/blob/master/index.html#L46).
+
+
 Here is a sample benchmark
 [bench-example](https://github.com/jeromeetienne/benchrunner/blob/master/bench-example.js).
 
-It is add ```#runall``` to the runner url. The benchmarks will start as soon
-as the page is loaded.
+Here is an suite 
+```javascript
+benchsuite('current time in ms', function(){
+	bench('Date.now()', function() {
+		Date.now()
+	});
+	bench('new Date().getTime()', function() {
+		new Date().getTime();
+	});
+});
+```
+
