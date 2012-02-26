@@ -25,14 +25,15 @@ Here is a sample benchmark
 [bench-example](https://github.com/jeromeetienne/benchrunner/blob/master/bench-example.js).
 
 Here is an suite 
+
 ```javascript
-benchsuite('current time in ms', function(){
+    benchsuite('current time in ms', function(){
 	bench('Date.now()', function() {
 		Date.now()
 	});
 	bench('new Date().getTime()', function() {
 		new Date().getTime();
 	});
-});
+    });
 ```
 
