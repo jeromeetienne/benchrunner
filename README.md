@@ -14,10 +14,9 @@ as the page is loaded.
 
 You add your own suite
 at the end of the
-[index.html](https://github.com/jeromeetienne/benchrunner/blob/master/index.html).
-So around
+[index.html](https://github.com/jeromeetienne/benchrunner/blob/master/index.html)
+so around
 [here](https://github.com/jeromeetienne/benchrunner/blob/master/index.html#L46).
-
 Here is a sample benchmark
 [bench-example](https://github.com/jeromeetienne/benchrunner/blob/master/bench-example.js).
 Here is an bench suite.
