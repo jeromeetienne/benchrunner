@@ -9,8 +9,6 @@ The UI is widely inspired from
 by
 [TJ Holowaychuk](https://github.com/visionmedia).
 
-
-
 It is add ```#runall``` to the runner url. The benchmarks will start as soon
 as the page is loaded.
 
@@ -20,11 +18,9 @@ at the end of the
 So around
 [here](https://github.com/jeromeetienne/benchrunner/blob/master/index.html#L46).
 
-
 Here is a sample benchmark
 [bench-example](https://github.com/jeromeetienne/benchrunner/blob/master/bench-example.js).
-
-Here is an suite 
+Here is an bench suite.
 
 ```javascript
 benchsuite('current time in ms', function(){
