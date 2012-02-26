@@ -2,7 +2,7 @@ benchrunner is a standalone UI on top of benchmark.js.
 It will run your benchmarks thru
 [benchmark.js](https://github.com/bestiejs/benchmark.js)
 and display the result in a webpage such as
-[this one](http://jeromeetienne.github.com/benchrunner/).
+[this one](http://jeromeetienne.github.com/benchrunner/#runall).
 
 The UI is widely inspired from [mocha](visionmedia.github.com/mocha/)
 by [TJ Holowaychuk](https://github.com/visionmedia).
