@@ -27,13 +27,13 @@ Here is a sample benchmark
 Here is an suite 
 
 ```javascript
-    benchsuite('current time in ms', function(){
-        bench('Date.now()', function() {
-            Date.now()
-        });
-        bench('new Date().getTime()', function() {
-            new Date().getTime();
-        });
+benchsuite('current time in ms', function(){
+    bench('Date.now()', function() {
+	Date.now()
     });
+    bench('new Date().getTime()', function() {
+	new Date().getTime();
+    });
+});
 ```
 
