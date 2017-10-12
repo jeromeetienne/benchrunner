@@ -4,7 +4,7 @@ It will run your benchmarks thru
 and display the result in a webpage such as
 [this one](http://jeromeetienne.github.com/benchrunner/#runall).
 
-The UI is widely inspired from [mocha](visionmedia.github.com/mocha/)
+The UI is widely inspired from [mocha](https://mochajs.org/)
 by [TJ Holowaychuk](https://github.com/visionmedia).
 
 It is add ```#runall``` to the runner url. The benchmarks will start as soon
